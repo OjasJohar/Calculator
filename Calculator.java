@@ -23,22 +23,18 @@ public class Calculator {
         if(c>0&&c<5){
            if(c==1){
              System.out.print("Addition is:");
-             //System.out.println(a+b);
              Addition.add(a,b);
            }
            else if(c==2){
              System.out.print("Substraction is:");
-             //System.out.println(a-b);
              Substraction.substract(a,b);
            }
            else if(c==3){
              System.out.print("Multiplication is:");
-             //System.out.println(a*b);
              Multiplication.multiply(a,b);
            }
            else if(c==4){
              System.out.print("Division is:");
-             //System.out.println(a/b);
              Division.divide(a,b);
            }
         }else{
